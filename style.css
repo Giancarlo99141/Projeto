@@ -1,0 +1,115 @@
+.geral {
+    display: flex;
+    gap: 40px;
+    -ms-flex-align: center;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.botoes{
+    background-color: rgb(255, 255, 255);
+    padding: 17px 38px;
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 4%;
+    font-size: 70px;
+}
+
+.maior{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: 5% 10% 0% 10%;
+}
+
+.imag{
+    max-width: 100%;
+}
+
+.c1{
+    display: grid;
+    background-color: white;
+    text-align: end;
+    align-content: center;
+    font-size: 30px;
+    gap: 15px;   
+    padding: 10px 50px;
+}
+
+.vermelho{
+    display: flex;
+    height: 6px;
+    width: 60px;
+    background-color: red;
+    margin-left: 48%;
+    margin-top: px;
+}
+.botao{  
+    text-decoration: none;
+    background-color: red;
+    place-items: end;
+    padding: 20px 40px;
+    border-radius: 6px;
+    color: white;
+    font-size: 25px;
+}
+
+.c3{
+    display: grid;
+    text-align: end;
+    height: 607px;
+    align-content: center;
+    font-size: 30px;
+    gap: 15px;   
+    padding: 10px 50px;
+    font-size: 100px;
+    color: #c6c6c6;
+    font-weight: bolder 
+}
+.c4{
+    background-color: white;
+    display: grid;
+    padding: 90px 25% 30px 85px;
+    grid-template-columns: 1fr 9fr;
+    font-size: 27px;
+    align-content: center;
+
+}
+
+.final{
+    display: grid;
+    background-color: white;
+    margin-top: 200px;
+    height: 100px;
+    justify-content: center;
+    align-content: center;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.icone{
+    width: 30px;
+    height: 30px;
+}
+
+.span{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+body{
+    background-color: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
